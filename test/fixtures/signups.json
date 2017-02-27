@@ -1,0 +1,82 @@
+[
+	{
+		"model": "Signup",
+		"data": {
+      "tournamentid": 1,
+      "spiller1id": 1,
+      "spiller2id": 2,
+      "paid": 200,
+      "date": "2017-11-09T23:00:00.000Z"
+    }
+	},
+  {
+		"model": "Signup",
+		"data": {
+      "tournamentid": 1,
+      "spiller1id": 3,
+      "spiller2id": 4,
+      "paid": 200,
+      "date": "2017-11-09T23:00:00.000Z"
+    }
+	},
+  {
+		"model": "Signup",
+		"data": {
+      "tournamentid": 1,
+      "spiller1id": 5,
+      "spiller2id": 6,
+      "paid": 200,
+      "date": "2017-11-09T23:00:00.000Z"
+    }
+	},
+  {
+		"model": "Signup",
+		"data": {
+      "tournamentid": 1,
+      "spiller1id": 7,
+      "spiller2id": 8,
+      "paid": 200,
+      "date": "2017-11-09T23:00:00.000Z"
+    }
+	},
+  {
+		"model": "Signup",
+		"data": {
+      "tournamentid": 2,
+      "spiller1id": 1,
+      "spiller2id": 2,
+      "paid": 200,
+      "date": "2017-11-09T23:00:00.000Z"
+    }
+	},
+  {
+		"model": "Signup",
+		"data": {
+      "tournamentid": 2,
+      "spiller1id": 4,
+      "spiller2id": 5,
+      "paid": 200,
+      "date": "2017-11-09T23:00:00.000Z"
+    }
+	},
+  {
+		"model": "Signup",
+		"data": {
+      "tournamentid": 2,
+      "spiller1id": 6,
+      "spiller2id": 7,
+      "paid": 200,
+      "date": "2017-11-09T23:00:00.000Z"
+    }
+	},
+  {
+		"model": "Signup",
+		"data": {
+      "tournamentid": 3,
+      "spiller1id": 1,
+      "spiller2id": 4,
+      "paid": 200,
+      "date": "2017-11-09T23:00:00.000Z"
+    }
+	}
+]

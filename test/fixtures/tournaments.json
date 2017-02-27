@@ -1,0 +1,67 @@
+[
+	{
+		"model": "Tournament",
+		"data": {
+			"name": "Test1 Tournament",
+	    "startdate": "2017-11-09T23:00:00.000Z",
+	    "openreg": "2016-05-03T13:02:01.000Z",
+	    "place": 1271,
+			"teamlimit": 1,
+			"gender": "herrer",
+			"price": 200,
+			"info": "Some info about the tournament"
+		}
+	},
+	{
+			"model": "Tournament",
+			"data": {
+				"name": "Test2 Tournament",
+				"startdate": "2017-11-09T23:00:00.000Z",
+		    "openreg": "2016-05-03T13:02:01.000Z",
+				"place": 12345672,
+				"teamlimit": 2,
+				"gender": "damer",
+				"price": 100,
+				"info": "Some info about the tournament"
+			}
+	},
+	{
+			"model": "Tournament",
+			"data": {
+				"name": "Test3 Tournament",
+				"startdate": "2017-11-09T23:00:00.000Z",
+				"openreg": "2016-05-03T13:02:01.000Z",
+				"place": 12345672,
+				"teamlimit": 2,
+				"gender": "damer",
+				"price": 100,
+				"info": "Some info about the tournament"
+			}
+	},
+	{
+			"model": "Tournament",
+			"data": {
+				"name": "Test4 Tournament",
+				"startdate": "2017-11-09T23:00:00.000Z",
+				"openreg": "2016-05-03T13:02:01.000Z",
+				"place": 12345672,
+				"teamlimit": 2,
+				"gender": "damer",
+				"price": 100,
+				"info": "Some info about the tournament"
+			}
+	},
+	{
+			"model": "Tournament",
+			"data": {
+				"name": "Test5 Tournament",
+				"startdate": "2017-11-09T23:00:00.000Z",
+				"openreg": "2016-05-03T13:02:01.000Z",
+				"place": 12345672,
+				"teamlimit": 2,
+				"gender": "damer",
+				"price": 100,
+				"info": "Some info about the tournament"
+			}
+	}
+]

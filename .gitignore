@@ -1,0 +1,8 @@
+dist
+dist
+prod.sh
+dev.sh.sh
+dev.sh
+node_modules/
+local.sh
+.nyc_output/

@@ -1,0 +1,86 @@
+{
+  "name": "player-api",
+  "version": "1.0.0",
+  "description": "a rest api with an /players endpoint to do CRUD operations against",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "xo",
+    "clean": "rm -rf dist",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "build": "npm run clean  && npm run dist",
+    "dist": "babel src --out-dir dist",
+    "start": "node dist/index.js",
+    "start:dev": "nodemon src/index.js --exec babel-node",
+    "start:test": "babel-node test/test",
+    "test": "npm run tests",
+    "tests": "NODE_ENV=test nyc ava --serial",
+    "coveralls": "nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls",
+    "test:watch": "NODE_ENV=test ava --serial --watch",
+    "load": "babel-node test/load.js"
+  },
+  "ava": {
+    "require": "babel-core/register",
+    "files": [
+      "test/**/*.test.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osvb/player-api.git"
+  },
+  "author": "Sindre Svendby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osvb/player-api/issues"
+  },
+  "homepage": "https://github.com/osvb/player-api/",
+  "dependencies": {
+    "ava": "^0.17.0",
+    "ava-spec": "^1.0.1",
+    "babel-plugin-espower": "^2.3.1",
+    "babel-preset-es2016": "^6.16.0",
+    "babel-preset-es2017": "^6.16.0",
+    "basic-auth": "^1.0.4",
+    "bluebird": "^3.4.0",
+    "body-parser": "^1.15.1",
+    "composable-middleware": "^0.3.0",
+    "continuation-local-storage": "^3.1.7",
+    "cookie-parser": "^1.4.3",
+    "cors": "2.8.1",
+    "debug": "^2.5.1",
+    "enchanted-debug": "^1.0.0",
+    "errorhandler": "^1.4.3",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^7.0.1",
+    "lodash": "^4.13.1",
+    "method-override": "^2.3.6",
+    "moment": "^2.14.1",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.10.2",
+    "pg": "^6.0.1",
+    "raven": "^1.1.1",
+    "sequelize": "^3.23.3",
+    "sequelize-fixtures": "^0.5.3",
+    "sinon": "^1.17.4",
+    "supertest": "^2.0.0",
+    "supertest-as-promised": "^4.0.2",
+    "umzug": "^1.11.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "child-process-promise": "^2.0.3",
+    "coveralls": "^2.11.9",
+    "esdoc": "^0.4.7",
+    "esdoc-es7-plugin": "0.0.3",
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-async-await": "0.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "nyc": "^10.0.0"
+  }
+}

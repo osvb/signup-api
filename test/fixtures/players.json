@@ -1,0 +1,101 @@
+[
+	{
+		"model": "Player",
+		"data": {
+			"firstName": "FirstName 1",
+	    "lastName": "Lastname 1",
+			"name": "FirstName 1 Lastname 1",
+	    "email": "firstname.lastname@1.com",
+			"gender": "female",
+	    "phoneNumber": "12345671",
+			"externalId": 1,
+      "rankingPoints_2017": 200
+		}
+	},
+    {
+        "model": "Player",
+        "data": {
+			    "firstName": "FirstName 2",
+			    "lastName": "Lastname 2",
+					"name": "FirstName 2 Lastname 2",
+			    "email": "firstname.lastname@2.com",
+					"gender": "male",
+			    "phoneNumber": "12345672",
+					"externalId": 2,
+          "rankingPoints_2017": 232
+        }
+    },
+    {
+        "model": "Player",
+        "data": {
+					"firstName": "FirstName 3",
+					"lastName": "Lastname 3",
+					"name": "FirstName 3 Lastname 3",
+					"email": "firstname.lastname@3.com",
+					"gender": "female",
+					"phoneNumber": "12345673",
+					"externalId": 3,
+          "rankingPoints_2017": 1031
+        }
+    },
+		{
+        "model": "Player",
+        "data": {
+					"firstName": "FirstName 4",
+					"lastName": "Lastname 4",
+					"name": "FirstName 4 Lastname 4",
+					"email": "firstname.lastname@4.com",
+					"gender": "male",
+					"phoneNumber": "12345674",
+          "rankingPoints_2017": 241
+        }
+    },
+		{
+        "model": "Player",
+        "data": {
+					"firstName": "FirstName 5",
+					"lastName": "Lastname 5",
+					"name": "FirstName 5 Lastname 5",
+					"email": "firstname.lastname@5.com",
+					"gender": "male",
+					"phoneNumber": "12555675",
+          "rankingPoints_2017": 13
+        }
+    },
+		{
+        "model": "Player",
+        "data": {
+					"firstName": "FirstName 6",
+					"lastName": "Lastname 6",
+					"name": "FirstName 6 Lastname 6",
+					"email": "firstname.lastname@6.com",
+					"gender": "male",
+					"phoneNumber": "12346676",
+          "rankingPoints_2017": 133
+        }
+    },
+		{
+        "model": "Player",
+        "data": {
+					"firstName": "FirstName 7",
+					"lastName": "Lastname 7",
+					"name": "FirstName 7 Lastname 7",
+					"email": "firstname.lastname@7.com",
+					"gender": "male",
+					"phoneNumber": "12347675",
+          "rankingPoints_2017": 113
+        }
+    },
+		{
+        "model": "Player",
+        "data": {
+					"firstName": "FirstName 8",
+					"lastName": "Lastname 8",
+					"name": "FirstName 8 Lastname 8",
+					"email": "firstname.lastname@8.com",
+					"gender": "male",
+					"phoneNumber": "12345675",
+          "rankingPoints_2017": 123
+        }
+    }
+]
