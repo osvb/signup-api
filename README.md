@@ -1,15 +1,16 @@
-# Beachvolleyball REST API
+# Signup REST API
 
-[![Coverage Status](https://coveralls.io/repos/github/osvb/player-api/badge.svg?branch=master)](https://coveralls.io/github/osvb/player-api?branch=master)
-[![Dependency Status](https://dependencyci.com/github/osvb/player-api/badge)](https://dependencyci.com/github/osvb/player-api)
-[ ![Codeship Status for SindreSvendby/enchanted-debug](https://app.codeship.com/projects/aa2a4f60-b690-0134-6bf9-5299c59d1e6f/status?branch=master)](https://app.codeship.com/projects/194405)
+[![Coverage Status](https://coveralls.io/repos/github/osvb/signup-api/badge.svg?branch=master)](https://coveralls.io/github/osvb/signup-api?branch=master)
+[![Dependency Status](https://dependencyci.com/github/osvb/signup-api/badge)](https://dependencyci.com/github/osvb/signup-api)
+[ ![Codeship Status for osvb/signup](https://app.codeship.com/projects/aa2a4f60-b690-0134-6bf9-5299c59d1e6f/status?branch=master)](https://app.codeship.com/projects/194405)
 
 ## Usage (Clients)
 
-### Endpoints
-* [Players!](./players.md)
-* [Tournaments!](./tournments.md)
 
+
+### Endpoints
+* [treningsgrupper](./treningsgrupper.md)
+* [treninger](./treninger.md)
 
 ## Development
 ### Database
